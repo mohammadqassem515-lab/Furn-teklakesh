@@ -113,16 +113,15 @@ function App() {
             </div>
           </div>
 
-       {/* Hero Side Image Banner */}
-          <div className="w-full max-w-lg mx-auto md:max-w-none flex-1">
-            <div className="relative rounded-[28px] overflow-hidden border border-amber-500/40 shadow-2xl bg-stone-900 aspect-[16/9] md:aspect-[4/3]">
+   {/* Hero Side Image Banner */}
+          <div className="w-full">
+            <div className="relative rounded-[28px] overflow-hidden border border-amber-500/40 shadow-2xl bg-stone-900">
               <img 
                 src="./hero-banner.jpg" 
                 alt="فرن تكلّكش" 
-                className="w-full h-full object-cover"
+                className="w-full h-auto object-contain bg-stone-900"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/20 to-transparent"></div>
-              <div className="absolute bottom-4 right-4 left-4 p-3 bg-stone-900/80 backdrop-blur-md rounded-2xl border border-stone-800 flex items-center justify-between">
+              <div className="absolute bottom-4 right-4 left-4 p-3 bg-stone-900/85 backdrop-blur-md rounded-2xl border border-stone-800 flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <Star className="w-4 h-4 fill-amber-400 text-amber-400" />
                   <span className="text-xs font-bold text-stone-200">الأعلى تقييماً بالمنطقة</span>
