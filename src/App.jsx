@@ -114,13 +114,13 @@ function App() {
           </div>
 
           {/* Hero Side Image Banner */}
-          <div className="w-full md:w-80 lg:w-96 shrink-0 relative group">
+          <div className="w-full h-auto overflow-hidden rounded-2xl">
             <div className="absolute -inset-1.5 bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 rounded-[32px] blur-xl opacity-50 group-hover:opacity-80 transition duration-700"></div>
             <div className="relative rounded-[28px] overflow-hidden border border-amber-500/40 shadow-2xl bg-stone-900">
               <img 
                 src="hero-banner.jpg" 
                 alt="فرن تكلّكش" 
-                className="w-full h-auto object-cover max-h-80 md:max-h-none transform group-hover:scale-105 transition duration-700 ease-out"
+                className="w-full h-auto object-contain rounded-2xl"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/20 to-transparent"></div>
               <div className="absolute bottom-4 right-4 left-4 p-3 bg-stone-900/80 backdrop-blur-md rounded-2xl border border-stone-800 flex items-center justify-between">
