@@ -1,0 +1,71 @@
+{
+  "bakeryName": "فرن تكلكش",
+  "slogan": "طعم الطبيعة وريحة الفرن - طعم أصيل... جودة ما بتتنافس",
+  "phoneNumber": "96181834372",
+  "offers": [
+    {
+      "id": "off-1",
+      "title": "عرض 3 بيتزا مميز",
+      "description": "3 بيتزا مشكلة + 1 لتر بيبسي مجاناً",
+      "price": "900,000 ل.ل",
+      "badge": "الأكثر طلباً",
+      "image": "public/pic1.jpeg"
+    },
+    {
+      "id": "off-2",
+      "title": "عرض المنقوشة",
+      "description": "دوبلكس مع زعتر أو دوبلكس مع سمسم",
+      "image": "/public/pic2.jpeg",
+      "options": [
+        { "quantity": "1 منقوشة", "price": "250,000 ل.ل" },
+        { "quantity": "3 مناقيش", "price": "700,000 ل.ل" }
+      ]
+    }
+  ],
+  "menu": {
+    "manakish": [
+      { "name": "جبنة", "price": "150,000 ل.ل", "image": "pic5.jpeg" },
+      { "name": "زعتر", "price": "50,000 ل.ل", "image": "pic6.jpeg" },
+      { "name": "بصل وبندورة", "price": "100,000 ل.ل", "image": "pic7.jpeg" },
+      { "name": "بصل وبندورة مع جبنة", "price": "150,000 ل.ل", "image": "pic8.jpeg" },
+      { "name": "نص بنص (زعتر وجبنة)", "price": "120,000 ل.ل", "image": "pic9.jpeg" },
+      { "name": "لحمة", "price": "200,000 ل.ل", "image": "pic10.jpeg" },
+      { "name": "كشك (سادة)", "price": "100,000 ل.ل", "image": "pic11.jpeg" },
+      { "name": "كشك مع جبنة", "price": "150,000 ل.ل", "image": "pic12.jpeg" },
+      { "name": "سبانغ (سادة)", "price": "100,000 ل.ل", "image": "pic13.jpeg" },
+      { "name": "سبانغ مع جبنة", "price": "150,000 ل.ل", "image": "pic14.jpeg" }
+    ],
+    "pizzas": [
+      {
+        "name": "بيتزا (خضرى / مرتديلا / سجق / جبنة وسجق)",
+        "image": "pic3.jpeg",
+        "sizes": [
+          { "size": "صغيري (25 سم)", "price": "250,000 ل.ل" },
+          { "size": "وسط (30 سم)", "price": "300,000 ل.ل" },
+          { "size": "كبيري (40 سم)", "price": "600,000 ل.ل" }
+        ]
+      },
+      {
+        "name": "بيتزا فاهيتا مع صوص افوكا",
+        "image": "pic4.jpeg",
+        "sizes": [
+          { "size": "صغيري (25 سم)", "price": "300,000 ل.ل" },
+          { "size": "وسط (30 سم)", "price": "400,000 ل.ل" }
+        ]
+      }
+    ],
+    "mashrouha": [
+      { "name": "مشروحة جبنة مع خضرا", "price": "180,000 ل.ل", "image": "pic19.jpeg" },
+      { "name": "مشروحة نص بنص مع خضرا", "price": "150,000 ل.ل", "image": "pic20.jpeg" },
+      { "name": "مشروحة زعتر بخضرا", "price": "80,000 ل.ل", "image": "pic21.jpeg" },
+      { "name": "مشروحة نص بنص", "price": "150,000 ل.ل", "image": "pic22.jpeg" },
+      { "name": "مشروحة جبنة", "price": "200,000 ل.ل", "image": "pic23.jpeg" }
+    ],
+    "kaak": [
+      { "name": "كعكة الجبنة اكسترا", "price": "250,000 ل.ل", "image": "pic15.jpeg" },
+      { "name": "كعكة البيتزا اكسترا", "price": "350,000 ل.ل", "image": "pic16.jpeg" },
+      { "name": "كعكة جبنة ومرتديلا اكسترا", "price": "300,000 ل.ل", "image": "pic17.jpeg" },
+      { "name": "كعكة جبنة وسجق اكسترا", "price": "300,000 ل.ل", "image": "pic18.jpeg" }
+    ]
+  }
+}

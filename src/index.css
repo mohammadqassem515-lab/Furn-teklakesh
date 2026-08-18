@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* خلفية بنقشة خفيفة وحركة التوهج الناري */
+body {
+  background-color: #0c0a09;
+  background-image: radial-gradient(rgba(217, 119, 6, 0.05) 1px, transparent 0);
+  background-size: 29px 24px;
+}
+
+@keyframes emberPulse {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.8; transform: scale(1.05); }
+}
+
+.animate-ember {
+  animation: emberPulse 4s ease-in-out infinite;
+}
