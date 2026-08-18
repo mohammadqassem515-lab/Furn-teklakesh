@@ -79,7 +79,7 @@ function App() {
       </header>
 
       {/* Hero Showcase */}
-      <section className="relative py-10 md:py-16 px-4">
+      <section className="relative overflow-hidden py-10 md:py-16 px-4">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-8 md:gap-12">
           
           <div className="flex-1 text-center md:text-right">
