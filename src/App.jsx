@@ -113,25 +113,25 @@ function App() {
             </div>
           </div>
 
-          {/* Hero Side Image Banner */}
-          <div className="w-full h-auto overflow-hidden rounded-2xl">
-            <div className="absolute inset-0 bg-gradient-to-r from-amber-500 to-amber500 rounded-[28px] blur-sm opacity-15 "></div>
-            <div className="relative rounded-[28px] overflow-hidden border border-amber-500/40 shadow-2xl bg-stone-900">
-              <img 
-                src="hero-banner.jpg" 
-                alt="فرن تكلّكش" 
-                className="w-full h-auto object-contain rounded-2xl"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/20 to-transparent"></div>
-              <div className="absolute bottom-4 right-4 left-4 p-3 bg-stone-900/80 backdrop-blur-md rounded-2xl border border-stone-800 flex items-center justify-between">
-                <div className="flex items-center gap-2">
-                  <Star className="w-4 h-4 fill-amber-400 text-amber-400" />
-                  <span className="text-xs font-bold text-stone-200">الأعلى تقييماً بالمنطقة</span>
-                </div>
-                <span className="text-[10px] bg-amber-500/20 text-amber-400 px-2 py-1 rounded-md font-bold">100% بلدي</span>
-              </div>
-            </div>
-          </div>
+         {/* Hero Side Image Banner */}
+<div className="w-full relative px-4"> {/* أضفنا px-4 هنا لتتوازن الصورة مع النصوص */}
+  <div className="absolute inset-0 bg-gradient-to-r from-amber-500 to-orange-500 rounded-[28px] blur-sm opacity-15"></div>
+  <div className="relative rounded-[28px] overflow-hidden border border-amber-500/40 shadow-2xl bg-stone-900">
+    <img 
+      src="./hero-banner.jpg" 
+      alt="فرن تكلّكش" 
+      className="w-full h-64 object-cover rounded-2xl" 
+    />
+    <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/20 to-transparent"></div>
+    <div className="absolute bottom-4 right-4 left-4 p-3 bg-stone-900/80 backdrop-blur-md rounded-2xl border border-stone-800 flex items-center justify-between">
+      <div className="flex items-center gap-2">
+        <Star className="w-4 h-4 fill-amber-400 text-amber-400" />
+        <span className="text-xs font-bold text-stone-200">الأعلى تقييماً بالمنطقة</span>
+      </div>
+      <span className="text-[10px] bg-amber-500/20 text-amber-400 px-2 py-1 rounded-md font-bold">100% بلدي</span>
+    </div>
+  </div>
+</div>
 
         </div>
       </section>
