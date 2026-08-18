@@ -155,7 +155,7 @@ function App() {
               {[
                 { id: 'offers', label: 'العروض المميزة', icon: Tag },
                 { id: 'pizzas', label: 'البيتزا', icon: Flame },
-                { id: 'manakish', label: 'الفيّات والمناقيش', icon: ShoppingBag },
+                { id: 'manakish', label: 'المناقيش', icon: ShoppingBag },
                 { id: 'kaak', label: 'كعك عصروني', icon: Sparkles },
                 { id: 'mashrouha', label: 'المشروحة', icon: Utensils },
               ].map((tab) => {
