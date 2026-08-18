@@ -9,13 +9,13 @@
       "description": "3 بيتزا مشكلة + 1 لتر بيبسي مجاناً",
       "price": "900,000 ل.ل",
       "badge": "الأكثر طلباً",
-      "image": "public/pic1.jpeg"
+      "image": "pic1.jpeg"
     },
     {
       "id": "off-2",
       "title": "عرض المنقوشة",
       "description": "دوبلكس مع زعتر أو دوبلكس مع سمسم",
-      "image": "/public/pic2.jpeg",
+      "image": "pic2.jpeg",
       "options": [
         { "quantity": "1 منقوشة", "price": "250,000 ل.ل" },
         { "quantity": "3 مناقيش", "price": "700,000 ل.ل" }
